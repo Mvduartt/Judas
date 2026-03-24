@@ -1,0 +1,16 @@
+public class Robert {
+    public static void main(String[] args) {
+        
+        int idade = 20;
+
+        if (idade >= 0 && idade <= 12) {
+            System.out.println("Criança");
+        } else if (idade >= 13 && idade <= 17) {
+            System.out.println("Adolescente");
+        } else if (idade >= 18) {
+            System.out.println("Adulto");
+        } else {
+            System.out.println("Idade inválida");
+        }
+    }
+}
